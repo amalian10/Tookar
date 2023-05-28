@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.AboutActivity">
+
+    <TextView
+        android:id="@+id/tv_title_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin"
+        android:layout_marginTop="@dimen/top"
+        android:layout_marginEnd="@dimen/margin"
+        android:gravity="center"
+        android:selectAllOnFocus="true"
+        android:textStyle="bold"
+        android:text="Tookar app was created with the aim of encouraging people to reduce their consumption and reuse items they no longer need. This can help reduce waste and reduce the impact on the environment. By encouraging the reuse of goods and services, we can reduce the demand for new products and materials, which can contribute to sustainable living practices."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
